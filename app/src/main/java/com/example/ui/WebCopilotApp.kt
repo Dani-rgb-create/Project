@@ -1371,7 +1371,7 @@ fun AssistantChatSubpanel(
                         contentAlignment = Alignment.Center
                     ) {
                         Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                            Text("✨ Lumina Assistant", fontWeight = FontWeight.Bold, color = SunsetGold, fontSize = 14.sp)
+                            Text("✨ WebAI Assistant", fontWeight = FontWeight.Bold, color = SunsetGold, fontSize = 14.sp)
                             Spacer(modifier = Modifier.height(6.dp))
                             Text(
                                 "Write commands like:\n\"revisa este proyecto\"\n\"corrige las imágenes sin alt\"\n\"crea una FAQ\"",
@@ -1581,7 +1581,7 @@ fun ReviewProposedFixDialog(
                 Spacer(modifier = Modifier.height(14.dp))
 
                 Text(
-                    text = "Lumina auto-creates a backup restore point before modifying any files. Edits are sandboxed and undoable.",
+                    text = "WebAI Copilot auto-creates a backup restore point before modifying any files. Edits are sandboxed and undoable.",
                     fontSize = 9.sp,
                     lineHeight = 12.sp,
                     color = Color.White.copy(alpha = 0.4f)
