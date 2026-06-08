@@ -1,0 +1,6 @@
+{
+  "name": "WebAI Copilot",
+  "description": "An expert companion to safely audit, correct, and regenerate small local-business websites, schemas, and SEO indices.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
